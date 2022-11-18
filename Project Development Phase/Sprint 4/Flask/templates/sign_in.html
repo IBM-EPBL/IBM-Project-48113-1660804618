@@ -1,0 +1,25 @@
+<html>
+    <head>
+     <title>Sign In Page</title>
+        <link rel="stylesheet" href="../static/css/sign_in.css">
+        </head>
+        <body id="body">
+            
+                 <div class="Sign-In-Page">
+                    
+                 <img src="../static/Image/logo1.png" align="left"><h1> Hand Gesture </h1>
+                <form action="{{ url_for('signin') }}" method="post">
+                    <div class="msg">{{ msg }}</div>
+                   <input type="email" name="email" class="input-box" placeholder="Email Id">
+                   <br><input type="password" name="password" class="input-box" placeholder="Password">
+                
+                   <br>
+                   <input type="submit" class="signin-btn" value="Sign In"></br>
+                   
+                   <p> Doesn't have an Account <a href="{{url_for('signup')}}"> Sign Up</a></p>
+                   
+
+                </form>
+            </div>
+        </body>
+</html>

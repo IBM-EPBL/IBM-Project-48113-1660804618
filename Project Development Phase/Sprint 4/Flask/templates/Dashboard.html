@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../static/css/dashboard.css">
+        <script src="https://kit.fontawesome.com/698397da51.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div id="header">
+        <img src="../static/Image/logo1.png" id="logo">
+        <p id="logo_name">Hand Gesture</p>
+        <ul id="logo_list">
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li><a href="{{url_for('introduction')}}">Introduction</a></li>
+            <li><a href="{{url_for('about')}}">About</a></li>
+            <li><a href="{{url_for('logout')}}">Signout <i class="fa-solid fa-circle-user"></i></a></li>
+        </ul>
+       </div> 
+       <div id="main">
+            <div id="marquee">
+                <marquee>
+                    <h1>{{name}}</h1>
+                </marquee>
+            </div>
+            <div id="img"><p></p></div>
+            <div id="form">
+                <form action="{{url_for('dashboard')}}" method="post" enctype="multipart/form-data" id="submit">
+                    <label for="myfile" name="myfile" style="font-size: 20px;">Choose a file
+                        <input type="file" id="myfile" name="myfile"><br>
+                        <input type="submit" id="finish">
+                    </label>
+                    <div class="msg">{{result }}</div>
+                </form>
+            </div>
+            <div id="instruction">
+                <p style="font-size: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Instruction: </p>
+                <p class="p">1. Choose the file.</p>
+                <p class="p">2. Sign images must be in white background.</p>
+                <p class="p">3. Only the sign images must be upload.</p>
+                <p class="p">4. Sign image must be clear.</p>
+                <p class="p">5. Click "Submit" button to predict the sign.</p>
+            </div>
+            <div id="webcam_link">
+                <marquee>
+                    <span>If you want to predict the sign through webcam then - </span><a href="{{url_for('webcam')}}">Click here</a>
+                </marquee>
+            </div>    
+       </div>
+       
+        </div>
+       <div id="footer">
+        <img src="../static/Image/logo1.png" id="footer_logo">
+        <p id="footer_logo_name">Hand Gesture</p>
+        <ul id="footer_list">
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li><a href="{{url_for('introduction')}}">Introduction</a></li>
+            <li><a href="{{url_for('about')}}">About</a></li>
+            <li><a href="{{url_for('logout')}}">Signout <i class="fa-solid fa-circle-user"></i></a></li>
+        </ul>
+        <a class="footer_logo_link" href="https://mail.google.com/mail/u/0/?hl=en-GB&tf=cm&fs=1&to=harishpmkumar2002@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a class="footer_logo_link" href="https://www.facebook.com/hk1805/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a class="footer_logo_link" href="https://twitter.com/HarishJ42412044" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a class="footer_logo_link" href="https://www.linkedin.com/in/harish-kumar-894b65225" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="footer_logo_link" href="https://instagram.com/h_k_2_0_0_2?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="footer_logo_link" href="https://github.com/IBM-EPBL/IBM-Project-48113-1660804618" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a id="copyright"><i class="fa-solid fa-copyright"></i>copyright Hand Gesture 2022</a>
+
+
+       </div>
+    </body>
+</html>
