@@ -1,0 +1,308 @@
+*{
+    background-color:white;
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    background-color: white;
+    height: 80px;
+}
+#logo{
+    height: 80px;
+    float: left;
+    
+}
+#header #logo_name{
+    background-color: white;
+    font-size: 35px;
+    float: left;
+    padding-top: 20px;
+    font-family: "Simplified Arabic";
+    color: rgb(103, 125, 134);
+}
+#header #logo_list{
+   float: right;
+   background-color: white;
+   padding-top: 35px;
+}
+#header #logo_list li{
+    background-color: white;
+    display:inline;
+	margin-right:45px;
+    padding-right: 10px;
+	font-size:17px;
+    color: rgb(86, 102, 108);
+    font-family: "Simplified Arabic";
+}
+#header #logo_list li a .fa-solid{
+    padding-left:5px;
+    font-size:18px;
+    padding-right: 10px;
+    padding-top: 10px; 
+}
+#header #logo_list li a{
+    background-color: white;
+    color: rgb(86, 102, 108);
+    font-family: "Simplified Arabic";
+    text-decoration: none;
+    
+
+}
+#header #logo_list li a:hover{
+    text-decoration: underline;
+    color:black;
+    font-weight: bolder;   
+}
+#main{
+        background-color:white;
+        height:1300px;
+        width:90%;
+        margin:0px auto;
+}
+#main #img p{
+    width:100%;
+    height: 500px;
+    margin:0px auto;
+    background-image: url("../Image/main.jpg");
+    background-position:right;
+    
+
+}
+#main #img p {
+   padding-left: 30px;
+   word-spacing: 8px;
+   line-height: 1.6;
+   font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#main #img p b{
+background-color: rgb(211,211,211);
+}
+#main #img p a{
+    background-color: rgb(211,211,211);
+    text-decoration: none;
+}
+#main #img p a:hover{
+    text-decoration: underline;
+}
+#main #img #main_img{
+    width:100%;
+    height: 100%;
+    margin:0px auto;
+}
+#main .pdiv{
+    margin-top: 60px;
+    width: 30%;
+}
+#main .pdiv p{
+    text-align: justify;
+ }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#main .flex-container .pdiv p{
+    padding: 100px 30px;   
+    background-color: rgb(226,226,226);
+      
+}
+#main .flex-container .pdiv p a{   
+    background-color: rgb(226,226,226);
+    color: blue;   
+    text-decoration: none; 
+}
+#main .flex-container .pdiv p a b{   
+    background-color: rgb(226,226,226);
+    color: blue;   
+    
+}
+#main .flex-container .pdiv p a:hover{     
+    text-decoration: underline; 
+}
+#main .flex-container .pdiv p span b{   
+    background-color: rgb(226,226,226);
+    font-size: 20px;
+}
+#main #main_signin{
+    margin-top: 80px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30%;
+}
+#main #main_signin_p{
+    text-align: left;
+    
+    
+}
+/* 
+#main #pdiv1
+{
+	float:left;
+	width:30%;
+}
+#main #pdiv2
+{
+	width:30%;
+	float:left;
+    padding-left: 70px;
+} 
+#main #pdiv3
+{
+	background-color: aqua;
+}*/
+
+.slideshow-container {
+    
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+#footer{
+    background-color:rgb(35,38,41);
+    height: 250px;
+}
+#footer_logo{
+    height: 60px;
+    float: left;
+    padding-left: 150px;
+    background-color:rgb(35,38,41) ;
+    padding-top: 18px;
+    
+}
+#footer #footer_logo_name{
+    background-color:rgb(35,38,41) ;
+    font-size: 30px;
+    float: left;
+    padding-top: 30px;
+    font-family: "Simplified Arabic";
+    color: rgb(155, 174, 181);
+    padding-left: 10px;
+}
+#footer #footer_list{
+    float: left;
+    background-color: rgb(35,38,41);
+    padding-top: 50px;
+ }
+ #footer #footer_list li{
+    background-color: rgb(35,38,41);
+	margin-right:40px;
+    padding-right: 10px;
+	font-size:17px;
+    color: rgb(86, 102, 108);
+    font-family: "Simplified Arabic";
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#footer #footer_list li a{
+    background-color: rgb(35,38,41);
+    color: rgb(155, 174, 181);
+    font-family: "Simplified Arabic";
+    text-decoration: none;
+}
+#footer #footer_list li a i{
+    background-color: rgb(35,38,41);
+	font-size:17px;
+    color: rgb(86, 102, 108);
+    padding-left:5px ;
+}
+#footer #footer_list li a:hover{
+   
+    color:white;
+    font-weight: bolder;   
+}
+#footer #footer_list li a i:hover{
+   
+    color:white;
+    font-weight: bolder;   
+}
+.footer_logo_link{
+    background-color:rgb(35,38,41) ;
+    
+}
+.fa-regular
+{
+	font-size:20px;
+    float: left;
+    margin-right:35px;
+	margin-top:190px;
+    color:rgb(155, 174, 181) ;
+    background-color: rgb(35,38,41);
+}
+.fa-brands
+{
+	font-size:20px;
+	margin-top:190px;
+	margin-right:35px;
+    color:rgb(155, 174, 181) ;
+    background-color: rgb(35,38,41);
+}
+#footer #copyright{
+    color:rgb(155, 174, 181) ;
+    background-color: rgb(35,38,41);
+    float: right;
+    padding-top: 200px;
+    padding-right: 20px;
+}
+#footer i{
+    background-color: rgb(35,38,41);
+    padding-right: 5px;
+}
+
+
+
+
+

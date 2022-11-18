@@ -1,0 +1,43 @@
+<html>
+    <head>
+     <title>Sign Up Page</title>
+        <link rel="stylesheet" href="../static/css/sign_up.css">
+    
+    
+        
+
+        </head>
+        <body>
+            
+                 <div class="Sign-Up-Page">
+                    
+                 <img src="../static/Image/logo1.png" align="left"><h1> Hand Gesture </h1>
+                <form action="{{ url_for('signup') }}" method="post">
+                    <div class="msg">{{ msg }}</div>
+                  <input type="Username" name="username" class="input-box" placeholder="Username" required>
+                   <br>
+                   
+                  <input type="Name" name="name" class="input-box" placeholder="Name" required>
+                  <br>
+                
+                     
+                  <input type="Gender" name="gender" class="input-box" placeholder="Gender" required>
+                  
+                  <br>
+                  <input type="number" name="age" class="input-box"placeholder="Age" required>
+                   <br>
+                   <input type="date" name="DOB"  class="input-box" placeholder="Date of Birth" required>
+
+                   <input type="email" name="email" class="input-box" placeholder="Email Id" required>
+                   <br><input type="password" name="password" class="input-box" placeholder="Password" required>
+                
+                   <br>
+                   <input type="submit" class="signup-btn" value="Sign Up"></br>
+                   
+                   <p>Do you have an Account?<a href="{{url_for('signin')}}"> Sign In </a>
+                    </p>
+
+                </form>
+            </div>
+        </body>
+</html>
