@@ -1,0 +1,48 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+background-color: rgb(206, 199, 199);
+
+
+}
+.Sign-Up-Page
+{
+ width: 300px;
+ 
+
+ padding:5px;
+ margin:3% auto 0;
+ text-align: center;
+}
+img{
+    width:50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* Heading*/
+.Sign-Up-Page h1{
+    color:rgb(15, 25, 25);
+    text-align:top;
+    padding-right: 15px;
+}
+/* Detais adding box*/
+
+.input-box{
+    border-radius:20px;
+    padding: 10px;
+    margin: 5px;
+    width:75%;
+    border:1px solid #999;
+    outline:none;
+}
+
+/* For sign up button*/
+.signup-btn{
+    background-color:lightblue;
+    margin-top: 10px;
+}
+
+::placeholder{
+    color: black;
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    background-color: rgb(206, 199, 199);
+    }
+    .Sign-In-Page{
+     width: 300px;
+     padding:55px;
+     margin:8% auto 0;
+     text-align: center;
+    }
+
+    /* For logo image*/
+    img{
+        width:50px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    /* Heading*/
+    .Sign-In-Page h1{
+        color:rgb(15, 25, 25);
+        text-align:top;
+        padding-right: 15px;
+    }
+
+    /* Details adding box */
+     .input-box{
+        border-radius:20px;
+        padding: 10px;
+        margin: 5px;
+        width:75%;
+        border:1px solid #999;
+        outline:none;
+    
+    }
+
+    /* For Sign in Button*/
+    .signin-btn {
+        background-color:lightblue;
+        margin-top: 10px;
+    }
+
+    ::placeholder{
+        color: black;
+    }
+    

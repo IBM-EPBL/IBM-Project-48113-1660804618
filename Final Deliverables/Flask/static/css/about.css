@@ -1,0 +1,26 @@
+body{
+    font-family:"Arial, Helvetica, sans-serif";
+    font-style: italic;
+    justify-content: center;
+    background-color: rgb(155, 152, 158)
+}
+/* For about div*/
+.about {
+    width: 500px;
+    padding:50px;
+    margin:4% auto 0;
+    text-align: center;
+}
+/* For logo image*/
+img{
+    width:150px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+/* For creditors name*/
+.about h1{
+    color:rgb(14, 12, 12);
+    text-align:top;
+    padding-right: 15px;
+}
+
